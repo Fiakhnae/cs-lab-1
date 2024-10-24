@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:CSLab1.ViewModels"
+             x:DataType="vm:MainViewModel"
+             x:Class="CSLab1.Views.MainPage">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0">
+            <Border VerticalOptions="Center" HorizontalOptions="Center">
+                <Border.StrokeShape>
+                    <Rectangle RadiusX="10" RadiusY="10"/>
+                </Border.StrokeShape>
+                <VerticalStackLayout Margin="20" Spacing="30" HorizontalOptions="Center" VerticalOptions="Center">
+                    <Label Text="Введіть потужність процесора №1"/>
+                    <Entry Text="{Binding Power1}" Placeholder="Потужність процесора"/>
+                </VerticalStackLayout>
+            </Border>
+        </Grid>
+        <Grid Grid.Column="1">
+            <Border VerticalOptions="Center" HorizontalOptions="Center">
+                <Border.StrokeShape>
+                    <Rectangle RadiusX="10" RadiusY="10"/>
+                </Border.StrokeShape>
+                <VerticalStackLayout Margin="20" Spacing="30" HorizontalOptions="Center" VerticalOptions="Center">
+                    <Label Text="Введіть потужність процесора №1"/>
+                    <Entry Text="{Binding Power2}" Placeholder="Потужність процесора"/>
+                </VerticalStackLayout>
+            </Border>
+        </Grid>
+        <Grid Grid.Column="2">
+            <Border VerticalOptions="Center" HorizontalOptions="Center">
+                <Border.StrokeShape>
+                    <Rectangle RadiusX="10" RadiusY="10"/>
+                </Border.StrokeShape>
+                <VerticalStackLayout Margin="20" Spacing="30" HorizontalOptions="Center" VerticalOptions="Center">
+                    <Label Text="Введіть потужність процесора №1"/>
+                    <Entry Text="{Binding Power3}" Placeholder="Потужність процесора"/>
+                </VerticalStackLayout>
+            </Border>
+        </Grid>
+        <Grid Grid.Column="3">
+            <Border VerticalOptions="Center" HorizontalOptions="Center">
+                <Border.StrokeShape>
+                    <Rectangle RadiusX="10" RadiusY="10"/>
+                </Border.StrokeShape>
+                <VerticalStackLayout Margin="20" Spacing="30" HorizontalOptions="Center" VerticalOptions="Center">
+                    <Label Text="Введіть потужність процесора №1"/>
+                    <Entry Text="{Binding Power4}" Placeholder="Потужність процесора"/>
+                </VerticalStackLayout>
+            </Border>
+        </Grid>
+        <Grid Grid.Column="4">
+            <Border VerticalOptions="Center" HorizontalOptions="Center">
+                <Border.StrokeShape>
+                    <Rectangle RadiusX="10" RadiusY="10"/>
+                </Border.StrokeShape>
+                <VerticalStackLayout Margin="20" Spacing="30" HorizontalOptions="Center" VerticalOptions="Center">
+                    <Label Text="Введіть потужність процесора №1"/>
+                    <Entry Text="{Binding Power5}" Placeholder="Потужність процесора"/>
+                </VerticalStackLayout>
+            </Border>
+        </Grid>
+        <VerticalStackLayout Margin="0, 0, 0, 30" Spacing="30" HorizontalOptions="Center" VerticalOptions="End" Grid.Column="0" Grid.ColumnSpan="5">
+            <Border VerticalOptions="Center" HorizontalOptions="Center">
+                <Border.StrokeShape>
+                    <Rectangle RadiusX="10" RadiusY="10"/>
+                </Border.StrokeShape>
+                <VerticalStackLayout Margin="20" Spacing="30" HorizontalOptions="Center" VerticalOptions="Center">
+                    <Label Text="Введіть ймовірність"/>
+                    <Entry Text="{Binding Random}" Placeholder="Ймовірність"/>
+                </VerticalStackLayout>
+            </Border>
+            <Button Command="{Binding OpenTestPageCommand}" Text="Зберегти дані"/>
+        </VerticalStackLayout>
+    </Grid>
+
+</ContentPage>
