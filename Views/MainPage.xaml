@@ -30,7 +30,7 @@
                     <Rectangle RadiusX="10" RadiusY="10"/>
                 </Border.StrokeShape>
                 <VerticalStackLayout Margin="20" Spacing="30" HorizontalOptions="Center" VerticalOptions="Center">
-                    <Label Text="Введіть потужність процесора №1"/>
+                    <Label Text="Введіть потужність процесора №2"/>
                     <Entry Text="{Binding Power2}" Placeholder="Потужність процесора"/>
                 </VerticalStackLayout>
             </Border>
@@ -41,7 +41,7 @@
                     <Rectangle RadiusX="10" RadiusY="10"/>
                 </Border.StrokeShape>
                 <VerticalStackLayout Margin="20" Spacing="30" HorizontalOptions="Center" VerticalOptions="Center">
-                    <Label Text="Введіть потужність процесора №1"/>
+                    <Label Text="Введіть потужність процесора №3"/>
                     <Entry Text="{Binding Power3}" Placeholder="Потужність процесора"/>
                 </VerticalStackLayout>
             </Border>
@@ -52,7 +52,7 @@
                     <Rectangle RadiusX="10" RadiusY="10"/>
                 </Border.StrokeShape>
                 <VerticalStackLayout Margin="20" Spacing="30" HorizontalOptions="Center" VerticalOptions="Center">
-                    <Label Text="Введіть потужність процесора №1"/>
+                    <Label Text="Введіть потужність процесора №4"/>
                     <Entry Text="{Binding Power4}" Placeholder="Потужність процесора"/>
                 </VerticalStackLayout>
             </Border>
@@ -63,7 +63,7 @@
                     <Rectangle RadiusX="10" RadiusY="10"/>
                 </Border.StrokeShape>
                 <VerticalStackLayout Margin="20" Spacing="30" HorizontalOptions="Center" VerticalOptions="Center">
-                    <Label Text="Введіть потужність процесора №1"/>
+                    <Label Text="Введіть потужність процесора №5"/>
                     <Entry Text="{Binding Power5}" Placeholder="Потужність процесора"/>
                 </VerticalStackLayout>
             </Border>
